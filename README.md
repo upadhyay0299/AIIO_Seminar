@@ -1,35 +1,32 @@
-Unsupervised Semantic Anomaly Detection of Retracted CS Papers
+# “Unsupervised Semantic Anomaly Detection of Retracted Computer Science Papers”
 
-This repository contains the code accompanying the MSc seminar paper:
-
-“Unsupervised Semantic Anomaly Detection of Retracted Computer Science Papers”
-Master’s in Data and Knowledge Engineering (DKE), OVGU.
+# Master’s in Data and Knowledge Engineering (DKE), OVGU.
 
 The project evaluates whether retracted computer science papers exhibit semantic anomalies relative to non-retracted publications using fully unsupervised learning, based on Sentence-BERT embeddings and classical anomaly detection models (LOF and Isolation Forest).
 
-Requirements
+# Requirements
 
 Python 3.8+
 
-Install required packages:
+# Install required packages:
 
 pip install numpy pandas scikit-learn matplotlib seaborn umap-learn sentence-transformers plotly
 
-Usage
+# Usage
 
 Prepare datasets
 
 python fake_paper_detection.py
 
 
-Run experiments
+# Run experiments
 
 python main.py
 
 
 The code trains anomaly detectors only on non-retracted arXiv papers and evaluates performance on retracted papers from the Retraction Watch Database.
 
-Output
+# Output
 
 Running the code generates:
 
